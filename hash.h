@@ -98,7 +98,7 @@ int hashDocument(){
     }
 
     // Abrir el archivo binario para escritura
-    FILE* binario = fopen("binario.bin", "wb");
+    FILE* binario = fopen("hash.bin", "wb");
     if (binario == NULL) {
         printf("Error al abrir el archivo binario\n");
         return 1;
@@ -134,7 +134,7 @@ float search(int sourceid, int dstid, int hod) {
     double tiempo_inicio = (double)inicio.tv_sec + (double)inicio.tv_usec / 1000000.0;
 
     // Abrir el archivo binario para lectura
-    FILE* binario = fopen("binario.bin", "rb");
+    FILE* binario = fopen("hash.bin", "rb");
     if (binario == NULL) {
         printf("Error al abrir el archivo binario\n");
         return 1;
