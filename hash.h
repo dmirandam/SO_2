@@ -4,7 +4,7 @@
 #include <sys/time.h> 
 
 #define MAX_LINE_LENGTH 5024
-#define HASH_SIZE 1160
+#define HASH_SIZE 1000000
 // Definición de la estructura de un nodo
 typedef struct Nodo {
     int sourceid;
