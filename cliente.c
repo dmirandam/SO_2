@@ -8,7 +8,7 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 
-#define SERVER_IP "34.226.147.86"
+#define SERVER_IP "18.208.109.158"
 #define PORT 3535
 #define BUFFER_SIZE 200
 void peticion_servidor( int sourceid, int dstid, int hod) {
